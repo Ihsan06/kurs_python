@@ -22,4 +22,4 @@ saved_inventory = json.loads(json_inventory)
 if saved_inventory == inventory:
     print("-- worked: saved inventory equals original")
 else:
-    print("-- failed: saved inventory different from original")
+    print("-- failed: saved inventory different from originalTEST")
