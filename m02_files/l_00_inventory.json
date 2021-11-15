@@ -2,7 +2,7 @@
     {
         "name": "devnet-csr-always-on-sandbox",
         "ssh-info": {
-            "hosteame": "ios-xe-mgmt-latest.cisco.com",
+            "hostname": "ios-xe-mgmt-latest.cisco.com",
             "port": 8181,
             "credentials": {
                 "username": "developer",

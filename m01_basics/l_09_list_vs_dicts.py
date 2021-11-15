@@ -1,5 +1,5 @@
 import time
-# from tabulate import tabulate
+from tabulate import tabulate
 
 from util.create_utils import create_devices
 
@@ -14,8 +14,8 @@ if __name__ == '__main__':
         print(device)
         devices_dict[device["ip"]] = device
 
-    # print("calculating tabular output of devices...")
-    # print("\n", tabulate(devices, headers="keys"))
+    print("calculating tabular output of devices...")
+    print("\n", tabulate(devices, headers="keys"))
 
     while True:
 
